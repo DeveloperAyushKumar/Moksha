@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import 'dotenv/config';
 import cors from 'cors';
-import postRoutes from './src/posts/User/post.route.js';
+import postRoutes from "./src/posts/post/post.route.js";
 import bodyParser from 'body-parser';
 import faceRoutes from './src/Face_emotion/face.route.js';
 import consultantRoutes from './src/Consultant/Consultant.route.js';
